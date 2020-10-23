@@ -3,6 +3,7 @@ import About from '../../components/pages/About';
 import Contact from '../../components/pages/Contact';
 import Home from '../../components/pages/Home';
 import TableRedash from '../../components/pages/table';
+import Charts from './../../components/pages/charts/index';
 import {
     DesktopOutlined,
     PieChartOutlined,    
@@ -19,15 +20,15 @@ import {
         name: 'Table'
        },
        {
-        path:'/contact',
-        Component:Contact,
-        link:'/contact',
+        path:'/charts',
+        component:Charts,
+        link:'/charts',
         icon: <DesktopOutlined/>,
-        name: 'Contact'
+        name: 'Charts'
        },
        {
         path:'/about',
-        Component:About,
+        component:About,
         link:'/about',
         icon: <FontColorsOutlined/>,
         name: 'About'
