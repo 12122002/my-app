@@ -4,9 +4,10 @@ import Contact from '../../components/pages/Contact';
 import Home from '../../components/pages/Home';
 import TableRedash from '../../components/pages/table';
 import Charts from './../../components/pages/charts/index';
+import Alert from './../../components/pages/alert/index';
 import {
-    DesktopOutlined,
     PieChartOutlined,    
+    DesktopOutlined,
     FontColorsOutlined,
   } from '@ant-design/icons'; 
   const pageRoutes = () => {
@@ -27,11 +28,11 @@ import {
         name: 'Charts'
        },
        {
-        path:'/about',
-        component:About,
-        link:'/about',
+        path:'/alert',
+        component:Alert,
+        link:'/alert',
         icon: <FontColorsOutlined/>,
-        name: 'About'
+        name: 'Alert'
        }       
     ];
 
